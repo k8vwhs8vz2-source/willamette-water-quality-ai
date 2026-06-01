@@ -10,6 +10,7 @@ import csv
 import sys
 from collections import defaultdict
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
@@ -58,8 +59,13 @@ def fetch_rdb_rows(huc8: str, parameter_cd: str) -> list[dict[str, str]]:
     }
     url = f"{SITE_SERVICE_URL}?{urlencode(query)}"
 
-    with urlopen(url, timeout=60) as response:
-        text = response.read().decode("utf-8")
+    try:
+        with urlopen(url, timeout=60) as response:
+            text = response.read().decode("utf-8")
+    except HTTPError as exc:
+        if exc.code == 404:
+            return []
+        raise
 
     data_lines = [line for line in text.splitlines() if line and not line.startswith("#")]
     if len(data_lines) < 3:
