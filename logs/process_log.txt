@@ -1,0 +1,5 @@
+[2026-06-01T09:26:28] Reading raw data from data_raw\usgs\willamette_14211720_iv_2009_2024.csv
+[2026-06-01T09:26:35] Clean raw shape after parsing: (3265568, 7)
+[2026-06-01T09:26:41] Wrote processed data to data_processed\willamette_14211720_30min_2009_2024.csv with shape (280512, 7)
+[2026-06-01T09:26:41] Wrote quality summary to results\data_quality_summary.csv with shape (7, 16)
+[2026-06-01T09:26:41] Processing script finished

@@ -1,0 +1,20 @@
+[2026-06-01T09:05:06] Starting USGS IV download for site 14211720: Willamette River at Portland, OR / Morrison Bridge
+[2026-06-01T09:05:06] Date range: 2009-01-01 to 2024-12-31
+[2026-06-01T09:05:06] Requesting parameter 00060 (discharge)
+[2026-06-01T09:05:50] Downloaded 950672 rows for parameter 00060 (discharge)
+[2026-06-01T09:05:50] Requesting parameter 00065 (gage height)
+[2026-06-01T09:06:38] Downloaded 936886 rows for parameter 00065 (gage height)
+[2026-06-01T09:06:38] Requesting parameter 00010 (water temperature)
+[2026-06-01T09:06:57] Downloaded 277647 rows for parameter 00010 (water temperature)
+[2026-06-01T09:06:57] Requesting parameter 00095 (specific conductance)
+[2026-06-01T09:07:19] Downloaded 275417 rows for parameter 00095 (specific conductance)
+[2026-06-01T09:07:19] Requesting parameter 00400 (pH)
+[2026-06-01T09:07:40] Downloaded 275082 rows for parameter 00400 (pH)
+[2026-06-01T09:07:40] Requesting parameter 00300 (dissolved oxygen)
+[2026-06-01T09:08:01] Downloaded 275800 rows for parameter 00300 (dissolved oxygen)
+[2026-06-01T09:08:01] Requesting parameter 63680 (turbidity)
+[2026-06-01T09:08:19] Downloaded 274064 rows for parameter 63680 (turbidity)
+[2026-06-01T09:08:19] Requesting parameter 99133 (nitrate)
+[2026-06-01T09:08:25] No data returned for parameter 99133 (nitrate)
+[2026-06-01T09:08:51] Wrote CSV to data_raw\usgs\willamette_14211720_iv_2009_2024.csv with shape (3265568, 6)
+[2026-06-01T09:08:51] Download script finished
