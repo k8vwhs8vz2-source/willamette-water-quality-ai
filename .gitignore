@@ -1,3 +1,4 @@
 __pycache__/
 *.pyc
 data_raw/usgs/*.csv
+data_processed/willamette_core_35_*.csv
