@@ -1,0 +1,11 @@
+[2026-06-01T14:39:55] Loaded core sites: 35
+[2026-06-01T14:40:44] Scanned 20 chunks
+[2026-06-01T14:41:34] Scanned 40 chunks
+[2026-06-01T14:42:22] Scanned 60 chunks
+[2026-06-01T14:43:11] Scanned 80 chunks
+[2026-06-01T14:44:02] Scanned 100 chunks
+[2026-06-01T14:44:54] Scanned 120 chunks
+[2026-06-01T14:45:53] Scanned 140 chunks
+[2026-06-01T14:46:21] Wrote metadata\parameters.csv with shape (8, 12)
+[2026-06-01T14:46:21] Wrote metadata\site_parameters.csv with shape (158, 14)
+[2026-06-01T14:46:21] Wrote metadata\sites.csv with shape (35, 21)

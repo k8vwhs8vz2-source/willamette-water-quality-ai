@@ -1,0 +1,9 @@
+parameter_cd,parameter_name,short_name,unit,parameter_group,priority,modeling_role,hard_min,hard_max,suspect_min,suspect_max,notes
+00010,water_temperature,water_temperature,deg C,water_quality,core,target_or_predictor,-2,35,0,30,Primary temperature signal for forecasting and anomaly detection.
+00300,dissolved_oxygen,dissolved_oxygen,mg/L,water_quality,core,target_or_predictor,0,25,2,18,Primary ecological water-quality signal.
+63680,turbidity,turbidity,FNU,water_quality,core,target_or_predictor,0,,,300,Storm-sensitive signal; high values should be reviewed with flow context.
+00095,specific_conductance,specific_conductance,uS/cm @25C,water_quality,core,target_or_predictor,0,1000,20,300,Useful for source and seasonal water-quality differences.
+00400,ph,ph,standard units,water_quality,core,target_or_predictor,0,14,6,9.5,Core water-quality parameter where coverage is sufficient.
+00060,discharge,discharge,ft3/s,hydrology,auxiliary,predictor,0,,,250000,"Hydrologic context and predictor, not a water-quality target."
+00065,gage_height,gage_height,ft,hydrology,auxiliary,predictor,-5,30,0,20,Hydrologic context and predictor.
+99133,nitrate,nitrate,,nutrient,optional,future_topic,0,,,,Keep as optional until coverage supports a nutrient-focused analysis.
